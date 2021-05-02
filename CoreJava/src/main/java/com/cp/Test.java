@@ -11,6 +11,7 @@ public class Test {
 			System.out.println("I am in try");
 		} catch (Exception e) {
 			System.exit(0);
+			System.out.println("----------");
 			System.out.println("I am in Catch");
 			
 		}finally {
